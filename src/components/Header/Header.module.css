@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin: 10px 0;
+}
+.header ul {
+    display: flex;
+    height: 100%;
+}
+.header li {
+    padding: 0 30px;
+    height: 90%;
+    align-items: center;
+    display: flex;
+}
+.header li:first-child {
+    border-right: 2px solid black;
+}
+.header li a {
+    color: black;
+    font-size: 24px;
+    padding-bottom: 3px;
+}
